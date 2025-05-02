@@ -1,9 +1,9 @@
 export const studies = [
   {
-    title: "Técnico en desarrollo de software",
-    corporation: "SENA - Montería (Córdoba) ",
-    date: "02/2019 – 12/2019",
-  },
+    title: "Bootcamp de QA Engineer",
+    corporation: "TripleTen - Remoto",
+    date: "09/2024 – 02/2025",
+  }/*,
   {
     title: "Desarrollador Front-end React Js",
     corporation: "Alura Latam - Remoto",
@@ -13,7 +13,7 @@ export const studies = [
     title: "Curso profesional de React Js",
     corporation: "Código facilito - Remoto",
     date: "04/2023 – 04/2023",
-  },
+  },*/
 ];
 
 export const IconKeys = {
