@@ -38,6 +38,7 @@ export const IconKeys = {
   nodejs: "nodejs",
   mongodb: "mongodb",
   vite: "vite",
+  selenium:"selenium",
   // here add more icon keys
 };
 
@@ -45,6 +46,10 @@ export const skills = [
   {
     title: "Html",
     icon: IconKeys.html,
+  },
+  {
+    title: "Selenium",
+    icon: IconKeys.selenium,
   },
   {
     title: "Css",
