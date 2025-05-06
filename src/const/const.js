@@ -42,6 +42,7 @@ export const IconKeys = {
   postman: "postman",
   python: "python",
   jira: "jira",
+  devtools: "devtools",
   // here add more icon keys
 };
 
@@ -70,6 +71,10 @@ export const skills = [
   {
     title: "Github",
     icon: IconKeys.github,
+  },
+  {
+    title: "DevTools",
+    icon: IconKeys.devtools,
   },
 ];
 
