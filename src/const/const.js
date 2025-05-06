@@ -43,6 +43,7 @@ export const IconKeys = {
   python: "python",
   jira: "jira",
   devtools: "devtools",
+  pytest: "pytest",
   // here add more icon keys
 };
 
@@ -75,6 +76,10 @@ export const skills = [
   {
     title: "DevTools",
     icon: IconKeys.devtools,
+  },
+  {
+    title: "Pyest",
+    icon: IconKeys.pytest,
   },
 ];
 
