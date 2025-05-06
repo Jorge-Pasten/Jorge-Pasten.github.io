@@ -119,197 +119,35 @@ export const projects = [
   },
   {
     img: "../../../img/ecommerce-stripe-2.webp",
-    title: "Ecommerce Stripe",
-    link: "https://ecommerce-stripe-763m.vercel.app/",
-    description: `Proyecto FullStack de un ecommerce con pasarela de pagos stripe integrada, destalles de el product etc.  `,
+    title: "Urban Grocers - Pruebas Automatizadas con Pytest",
+    link: "https://github.com/Jorge-Pasten/qa-project-Urban-Grocers-app-es.git",
+    description: `Automatización de pruebas con Pytest y Requests para verificar la funcionalidad de creación de kits de productos en la API de Urban Grocers. Se implementaron pruebas positivas y negativas enfocadas en la validación del campo name, evaluando comportamiento ante entradas válidas, vacías, con caracteres especiales, números y tipos incorrectos. El proyecto incluye estructura modular, control de versiones con Git y ejecución local mediante Python y entorno virtual.`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.python,
       },
       {
-        icon: IconKeys.nextjs,
+        icon: IconKeys.pytest,
       },
       {
-        icon: IconKeys.tailwind,
+        icon: IconKeys.git,
       },
       {
-        icon: IconKeys.mongodb,
-      },
-      {
-        icon: IconKeys.stripe,
+        icon: IconKeys.github,
       },
     ],
   },
   {
-    img: "../../../img/nexanime.webp",
-    title: "NexAnime",
-    link: "https://nexanime.vercel.app",
-    description: `plataforma de anime para ver los animes en tendencia , más valorados , estadísticas.`,
+    img: "../../../img/ecommerce-stripe-2.webp",
+    title: "Urban.Lunch - Pruebas de QA para Aplicación Móvil",
+    link: "https://github.com/Jorge-Pasten/qa-project-Urban.Lunch-app.git",
+    description: `Pruebas funcionales y de usabilidad en la primera versión de Urban.Lunch para Android, una app que permite pedir platillos de restaurantes locales y recogerlos en puntos designados. Se verificaron funciones clave como selección de punto de recogida, elección y confirmación de platillos, seguimiento del pedido y manejo de errores. Las pruebas se ejecutaron en emulador y dispositivo Android, con documentación en Google Docs y reporte de bugs en Jira. El trabajo permitió identificar mejoras clave para optimizar la experiencia del usuario antes del lanzamiento.`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.androidstudio,
       },
       {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/cyberpunk.webp",
-    title: "cyberpunk",
-    link: "https://preeminent-liger-266356.netlify.app/",
-    description: `este proyecto se trata de un clon de la pagína de cyberpunk , donde
-      el ususario puede ver los tailer de él juegos y también los
-      episodios de la serie....`,
-    technologies: [
-      {
-        icon: IconKeys.html,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-    ],
-  },
-  {
-    img: "../../../img/store-games.webp",
-    title: "Store games",
-    link: "https://store-games-site.netlify.app/",
-    description: `Simulando una página de juegos , consumiendo la API de rawg api
-      donde los usuarios pueden buscar videojuegos, ver sus detalles como
-      creadores , calificaciones,tiendas donde comprar.....`,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
-    ],
-  },
-  {
-    img: "../../../img/movie.webp",
-    title: "Movie Tv",
-    link: "https://movietvsite.netlify.app/",
-    description: `simulando una página de películas , consumiendo la API de themovietv
-              donde los usuarios pueden buscar películas y ver trailer.....`,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-
-  {
-    img: "../../../img/fit-nation.webp",
-    title: "gym",
-    link: "https://fitnation.netlify.app/",
-    description: `landing page de una gym por ahora es una landing todavia está en
-              desarrollo la idea es que los usuarios puedan comprar productos de
-              el gym`,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/spotify.webp",
-    title: "Spotify-Clone",
-    link: "https://www.linkedin.com/posts/osnaider-mart%C3%ADnez_clon-de-la-p%C3%A1gina-de-spotify-echo-con-react-activity-7119712602342965248-upgL?utm_source=share&utm_medium=member_desktop",
-    description: `Clon de la página de Spotify con autenticación de usuario, reproductor de canciones, etc `,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.redux,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
-    ],
-  },
-
-  {
-    img: "../../../img/landing.webp",
-    title: "Landing Realidad Virtual",
-    link: "https://realityvirtual.netlify.app/",
-    description: `landing page de gafas de realidad virtual donde se muestra el
-              producto y como funciona`,
-    technologies: [
-      {
-        icon: IconKeys.astro,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/tasks-manager.webp",
-    title: "Tasks Manager",
-    link: "https://task-manager-ecru-chi.vercel.app/dashboard",
-    description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
-    technologies: [
-      {
-        icon: IconKeys.typeScript,
-      },
-      {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.zustand,
-      },
-      {
-        icon: IconKeys.shadcn,
+        icon: IconKeys.Jira,
       },
     ],
   },
