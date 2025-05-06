@@ -47,10 +47,6 @@ export const IconKeys = {
 
 export const skills = [
   {
-    title: "Html",
-    icon: IconKeys.html,
-  },
-  {
     title: "Selenium",
     icon: IconKeys.selenium,
   },
