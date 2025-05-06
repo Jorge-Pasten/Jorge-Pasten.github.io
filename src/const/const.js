@@ -41,6 +41,7 @@ export const IconKeys = {
   selenium:"selenium",
   postman: "postman",
   python: "python",
+  jira: "jira",
   // here add more icon keys
 };
 
@@ -60,6 +61,10 @@ export const skills = [
   {
     title: "Python",
     icon: IconKeys.python,
+  },
+  {
+    title: "Jira",
+    icon: IconKeys.jira,
   },
   {
     title: "Css",
