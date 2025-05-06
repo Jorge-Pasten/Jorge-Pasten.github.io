@@ -53,6 +53,10 @@ export const skills = [
     icon: IconKeys.selenium,
   },
   {
+    title: "Postman",
+    icon: IconKeys.postman,
+  },
+  {
     title: "Css",
     icon: IconKeys.css,
   },
