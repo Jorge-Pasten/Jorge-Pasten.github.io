@@ -40,6 +40,7 @@ export const IconKeys = {
   vite: "vite",
   selenium:"selenium",
   postman: "postman",
+  python: "python",
   // here add more icon keys
 };
 
@@ -55,6 +56,10 @@ export const skills = [
   {
     title: "Postman",
     icon: IconKeys.postman,
+  },
+  {
+    title: "Python",
+    icon: IconKeys.python,
   },
   {
     title: "Css",
