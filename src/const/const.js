@@ -39,7 +39,7 @@ export const IconKeys = {
   mongodb: "mongodb",
   vite: "vite",
   selenium:"selenium",
-  postman: "Postman",
+  postman: "postman",
   // here add more icon keys
 };
 
