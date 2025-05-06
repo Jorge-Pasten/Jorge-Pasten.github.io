@@ -45,6 +45,7 @@ export const IconKeys = {
   devtools: "devtools",
   pytest: "pytest",
   postgressql: "postgressql",
+  androidstudio: "androidstudio",
   // here add more icon keys
 };
 
@@ -85,6 +86,10 @@ export const skills = [
   {
     title: "PostgresSQL",
     icon: IconKeys.postgressql,
+  },
+  {
+    title: "Android Studio",
+    icon: IconKeys.androidstudio,
   },
 ];
 
