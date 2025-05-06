@@ -44,6 +44,7 @@ export const IconKeys = {
   jira: "jira",
   devtools: "devtools",
   pytest: "pytest",
+  postgressql: "postgressql",
   // here add more icon keys
 };
 
@@ -80,6 +81,10 @@ export const skills = [
   {
     title: "Pyest",
     icon: IconKeys.pytest,
+  },
+  {
+    title: "PostgresSQL",
+    icon: IconKeys.postgressql,
   },
 ];
 
