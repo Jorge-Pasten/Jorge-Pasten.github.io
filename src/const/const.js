@@ -147,7 +147,7 @@ export const projects = [
         icon: IconKeys.androidstudio,
       },
       {
-        icon: IconKeys.Jira,
+        icon: IconKeys.jira,
       },
     ],
   },
