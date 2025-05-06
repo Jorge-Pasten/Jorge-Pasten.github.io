@@ -63,30 +63,6 @@ export const skills = [
     icon: IconKeys.jira,
   },
   {
-    title: "Css",
-    icon: IconKeys.css,
-  },
-  {
-    title: "JavaScript",
-    icon: IconKeys.javaScript,
-  },
-  {
-    title: "Astro",
-    icon: IconKeys.astro,
-  },
-  {
-    title: "Tailwindcss",
-    icon: IconKeys.tailwind,
-  },
-  {
-    title: "React Js",
-    icon: IconKeys.react,
-  },
-  {
-    title: "Next Js",
-    icon: IconKeys.nextjs,
-  },
-  {
     title: "Git",
     icon: IconKeys.git,
   },
@@ -94,53 +70,6 @@ export const skills = [
   {
     title: "Github",
     icon: IconKeys.github,
-  },
-  {
-    title: "Material UI",
-    icon: IconKeys.materialUi,
-  },
-
-  {
-    title: "Redux Js",
-    icon: IconKeys.redux,
-  },
-  {
-    title: "Styled Components",
-    icon: IconKeys.styled,
-  },
-  {
-    title: "Node Js",
-    icon: IconKeys.nodejs,
-  },
-  {
-    title: "TypeScript",
-    icon: IconKeys.typeScript,
-  },
-  {
-    title: "Radix UI",
-    icon: IconKeys.radix,
-  },
-
-  {
-    title: "React Query",
-    icon: IconKeys.reactQuery,
-  },
-  {
-    title: "Vite",
-    icon: IconKeys.vite,
-  },
-  {
-    title: "Zustand",
-    icon: IconKeys.zustand,
-  },
-
-  {
-    title: "Shadcn UI",
-    icon: IconKeys.shadcn,
-  },
-  {
-    title: "Mongo Db",
-    icon: IconKeys.mongodb,
   },
 ];
 
