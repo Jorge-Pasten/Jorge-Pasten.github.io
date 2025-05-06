@@ -96,6 +96,23 @@ export const skills = [
 export const projects = [
   {
     img: "../../../img/ecommerce-stripe-2.webp",
+    title: "Urban Routes - Pruebas Automatizadas con Selenium y Pytest",
+    link: "https://github.com/Jorge-Pasten/qa-project-Urban-Routes-es.git",
+    description: `Automatización de pruebas con Selenium y Pytest para validar el flujo completo de solicitud de taxi, incluyendo selección de ruta, tarifa, servicios adicionales y pago. Cobertura de casos críticos como ingreso de dirección, validación de teléfono, tarjeta de crédito y visualización del modal de búsqueda. Código versionado con Git y ejecutable en entorno local con Python y Google Chrome.`,
+    technologies: [
+      {
+        icon: IconKeys.python,
+      },
+      {
+        icon: IconKeys.pytest,
+      },
+      {
+        icon: IconKeys.selenium,
+      },
+    ],
+  },
+  {
+    img: "../../../img/ecommerce-stripe-2.webp",
     title: "Ecommerce Stripe",
     link: "https://ecommerce-stripe-763m.vercel.app/",
     description: `Proyecto FullStack de un ecommerce con pasarela de pagos stripe integrada, destalles de el product etc.  `,
