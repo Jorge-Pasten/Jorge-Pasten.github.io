@@ -109,6 +109,12 @@ export const projects = [
       {
         icon: IconKeys.selenium,
       },
+      {
+        icon: IconKeys.git,
+      },
+      {
+        icon: IconKeys.github,
+      },
     ],
   },
   {
