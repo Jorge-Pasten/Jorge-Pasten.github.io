@@ -151,4 +151,37 @@ export const projects = [
       },
     ],
   },
+  {
+    img: "../../../img/titleproject.jpg",
+    title: "Pruebas de API para Urban Grocers",
+    link: "https://github.com/Jorge-Pasten/qa-project-pruebas-api-Urban-Grocers.git",
+    description: `Proyecto enfocado en validar la nueva funcionalidad de la API de Urban Grocers, una aplicación web para pedidos de comestibles a domicilio. Se evaluaron los endpoints relacionados con la creación de kits de productos y la disponibilidad del servicio de entrega "Order and Go", asegurando el correcto manejo de límites, precios y respuestas de error.`,
+    technologies: [
+      {
+        icon: IconKeys.postman,
+      },
+    ],
+  },
+  {
+    img: "../../../img/titleproject.jpg",
+    title: "Urban Routes - Pruebas de Diseño y Funcionalidad",
+    link: "https://github.com/Jorge-Pasten/qa-project-pruebas-de-diseno-y-funcionalidad.git",
+    description: `Proyecto de testing enfocado en validar la funcionalidad de “compartir un automóvil” en Urban Routes, una app que calcula rutas y costos de viaje. Se realizaron pruebas de diseño, UI y funcionalidad del formulario de reserva, ventanas emergentes de método de pago y botones clave, asegurando su correcto funcionamiento en distintos navegadores y resoluciones.`,
+    technologies: [
+      /*{
+        icon: IconKeys.postman,
+      },*/
+    ],
+  },
+  {
+    img: "../../../img/titleproject.jpg",
+    title: "Urban Routes - Diseño de Pruebas",
+    link: "https://github.com/Jorge-Pasten/qa-project-Diseno-de-Pruebas.git",
+    description: `Proyecto de diseño de pruebas enfocado en la funcionalidad de "compartir un automóvil" dentro de la app Urban Routes, que calcula rutas y precios de viaje. Se diseñaron mapas mentales, clases de equivalencia, valores límite y diagramas de flujo para validar el ingreso de datos, así como el cálculo de duración y precio del viaje, aplicando técnicas fundamentales de QA para garantizar la lógica del sistema.`,
+    technologies: [
+      /*{
+        icon: IconKeys.postman,
+      },*/
+    ],
+  },
 ];
